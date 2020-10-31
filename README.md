@@ -8,11 +8,17 @@
 | Youssef   | Affichage fenêtre | 
 | Lorrain   | Compression fichiers +24h, envoyer plusieurs personnes en même temps, reflechir pièces jointes|
 
+| Guillaume | Youssef | Lorrain |
+|:---------:|:-------:|:-------:|
+| Cryptage messages |	Affichage fenêtre | Compression fichiers (+24h) |
+| Permissions       |			  | Envoyer plusieurs pers.     |
+| Convertir msg in file |                 | Pièces jointes		|	
+
 ### Tâches à faire :
 
 [ ] Permettre l'échange de messages texte entre utilisateurs d'une même machine
 [ ] Fenêtre créée (avec les différentes fonctionnalités)
-[ ] Il peut y avoir un ou plusieurs destinataires aux messages
+[X] Il peut y avoir un ou plusieurs destinataires aux messages
 [ ] Gestion des permissions
 [ ] Gestion du chiffrement des mails (GPG)
 [ ] Message supprimé par un destinataire ne doit pas être supprimé pour les autres
