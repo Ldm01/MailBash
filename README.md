@@ -4,13 +4,6 @@
 
 ### Organisation du projet :
 
-| Guillaume | Cryptage messages, permissions, convertir un message en fichier|
-|:---------:|
-| Youssef   | Affichage fenêtre |
-|:---------:| 
-| Lorrain   | Compression fichiers +24h, envoyer plusieurs personnes en même temps, reflechir pièces jointes|
-|:---------:|
-
 | Guillaume | Youssef | Lorrain |
 |:---------:|:-------:|:-------:|
 | Cryptage messages |	Affichage fenêtre | Compression fichiers (+24h) |
@@ -19,9 +12,10 @@
 
 ### Tâches à faire :
 
+- [x] Créer le github
 - [ ] Permettre l'échange de messages texte entre utilisateurs d'une même machine
 - [ ] Fenêtre créée (avec les différentes fonctionnalités)
- [x] Il peut y avoir un ou plusieurs destinataires aux messages
+- [ ] Il peut y avoir un ou plusieurs destinataires aux messages
 - [ ] Gestion des permissions
 - [ ] Gestion du chiffrement des mails (GPG)
 - [ ] Message supprimé par un destinataire ne doit pas être supprimé pour les autres
@@ -30,3 +24,9 @@
 
 A rendre pour le 13 décembre ! 
 Bonne chance à nous :D
+
+### Membres du projet :
+
+* Guillaume IMPELLIZZERI
+* Lorrain SAMSON
+* Youssef ZARRAD
