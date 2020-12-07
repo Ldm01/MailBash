@@ -16,6 +16,8 @@
 - [x] Permettre l'échange de messages texte entre utilisateurs d'une même machine
 - [x] Fenêtre créée (avec les différentes fonctionnalités)
 - [x] Il peut y avoir un ou plusieurs destinataires aux messages
+- [ ] Lire un message
+- [ ] Envoyer un message
 - [ ] Gestion des permissions
 - [ ] Gestion du chiffrement des mails (GPG)
 - [ ] Message supprimé par un destinataire ne doit pas être supprimé pour les autres
