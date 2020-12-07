@@ -19,7 +19,7 @@
 - [ ] Gestion des permissions
 - [ ] Gestion du chiffrement des mails (GPG)
 - [ ] Message supprimé par un destinataire ne doit pas être supprimé pour les autres
-- [ ] Compression des anciens messages (+24h)
+- [x] Compression des anciens messages (+24h)
 - [ ] Bonus : Ajout de pièces jointes
 
 A rendre pour le 13 décembre ! 
