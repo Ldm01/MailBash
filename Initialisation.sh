@@ -17,6 +17,7 @@ for choix in "${options[@]}"; do
 		gpasswd -a $choix mails
 		cd /home/$choix
 		sudo mkdir mails 1>/dev/null
+		sudo chmod 777 /mails 
 		echo "dossier mails créé chez ${choix}"
 	fi
 done
