@@ -1,5 +1,3 @@
-#!/bin/bash
-
 export NCURSES_NO_UTF8_ACS=1
 COUNT=0
 
@@ -29,6 +27,8 @@ for choix in "${options[@]}"; do
 		echo "dossier mails créé chez ${choix}"
 	fi
 done
+
+bash compression.sh
 
 #Première interface, on peut soit lire ses mails soit écrire un mail
 CHOIX=$(dialog --backtitle "Menu Principal" \

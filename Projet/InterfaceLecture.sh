@@ -28,5 +28,13 @@ if [ $FORMATfile2 == "txt.gpg" ] ; then
 elif [ $FORMATfile2 == "txt.gpg.txt" ] ; then
 	pathMail="/home/${USER}/mails/${FILE}"
 	dialog --title "Message" --textbox $pathMail 0 0
+elif [ $FORMATfile2 == "txt.gpg.txt.gz" ] ; then
+	gzip -d $FILE
+	FILE2=$(echo $FILE | rev | cut -c 4- | rev)
+	echo $FILE
+	pathMail="/home/${USER}/mails/${FILE2}"
+	dialog --title "Message" --textbox $pathMail 0 0
 fi
+
 clear
+

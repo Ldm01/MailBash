@@ -1,5 +1,5 @@
 #!/bin/bash
-cd mails
+cd /home/$USER/mails
 for fich in `ls`; do
 	#Nombre de secondes passées depuis le 01/01/1970
 	NBSEC=$(date +%s)
